@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug",
+            "type": "lldb",
+            "request": "launch",
+            // "program": "${workspaceRoot}/target/x86_64-pc-windows-msvc/debug/cyber_cycle.exe",
+            "program": "c:\\Users\\jacob\\repos\\cyber_cycle\\target\\debug\\cyber_cycle.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "sourceLanguages": [
+                "rust"
+            ],
+            "preRunCommands": [
+                "breakpoint set -f C:\\Users\\jacob\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\heron_core-4.0.1\\src\\events.rs -l 112"
+            ]
+        },
+    ]
+}
