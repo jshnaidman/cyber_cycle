@@ -1,6 +1,6 @@
 # Cyber Cycle
 
-This is going to be a multi-player distributed game that plays a bit like tron. For now I'm focusing on just the single player experience.
+This is going to be a multi-player peer-to-peer game that plays a bit like tron. For now I'm focusing on just the single player experience.
 
 # How to run
 
